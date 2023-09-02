@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .numero {
     font-family: 'Be Vietnam', sans-serif;
     width: 69px;
@@ -20,3 +21,12 @@
     height: 23px;
 
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+  }
+>>>>>>> a018b5c4f7815b9ac9829888b97c6a5b138171ce
