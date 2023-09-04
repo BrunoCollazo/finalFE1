@@ -8,6 +8,14 @@
   }
 
 
+body {
+  width: 480px;
+  height: 3593px;
+  top: -2627px;
+  left: 654px;
+  background: #FFFFFF;
+}
+
 .numero {
     font-family: 'Be Vietnam', sans-serif;
     width: 69px;
