@@ -4,9 +4,28 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
   }
 
 
+header {
+    padding: 20px 40px 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: none;
+}
+header button{
+    display: none;
+}
+.logo{
+    width: 108px;
+}
+.hamburger{
+    width: 60px;
+    height: 60px;
+}
 
 
 
@@ -27,11 +46,6 @@
 
 
 
-
-
-
-
-  
 .numero {
     font-family: 'Be Vietnam', sans-serif;
     width: 69px;
