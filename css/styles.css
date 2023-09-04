@@ -38,3 +38,25 @@ body {
     height: 23px;
 
 }
+.puntosDiferenciaPros .contenido h3 {
+  background: rgba(139, 72, 191, 0.3);
+  font-family: 'Be Vietnam', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+
+
+.puntosDiferenciaPros .contenido p {
+  font-family: 'Be Vietnam', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  background: rgba(179, 178, 183, 0); 
+  color: rgba(179, 178, 183, 1); 
+}
