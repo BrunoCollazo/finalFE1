@@ -39,3 +39,19 @@ body {
 
 }
 
+
+.puntosDiferenciaPros {
+align-items: center;
+background-color: #8B48BF4D;
+display: flex
+
+}
+
+.puntosDiferenciaPros .h3 {
+    color:#FFFFFF;
+    font-weight: 700;
+    left: -14px;
+    margin: 0px;
+    position: relative;
+    
+}
