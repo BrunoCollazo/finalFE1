@@ -7,6 +7,47 @@
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
+/* HEADER */
+
+header {
+    padding: 20px 40px 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: none;
+}
+
+header button {
+    display: none;
+}
+
+.logo {
+    width: 108px;
+
+}
+
+.hamburger {
+    width: 60px;
+    height: 55px;
+}
+
+/* MAIN */
+
+.afterHeader img,
+.afterHeader div {
+    width: 400px;
+}
+
+h1 {
+    width: 400px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57.3px;
+    text-align: right;
+    color: #232C50;
+}
 
 body {
     background: #FFFFFF;
