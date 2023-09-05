@@ -70,6 +70,11 @@ h1 {
     text-align: right;
 }
 
+button{
+    border-width: 0px;
+}
+
+
 .btn-contact {
     width: 134px;
     height: 44px;
@@ -78,7 +83,6 @@ h1 {
     background-color: #8B48BF;
     font-size: 13.18px;
     align-self: self-end;
-    border-width: 0px;
 }
 
 .cualesSonDiferencias{
@@ -320,6 +324,7 @@ body {
     padding: 10px;
     border-radius: 50px;
     background: rgba(255, 255, 255, 1);
+    border-width: 0px;
 }
 
 #submitButton {
@@ -334,13 +339,13 @@ body {
 }
 
   
-.navbar {
+.footernav {
     display: flex;
     justify-content: space-between;
     padding: 0;
 }
 
-.navbar li {
+.footernav li {
     list-style-type: none; 
     margin-bottom: 10px; 
     text-align: left;
@@ -351,7 +356,7 @@ body {
     margin-right: 5px; 
 }
 
-.navbar a {
+.footernav a {
     text-decoration: none;
     color: #FFFFFF; }
 
