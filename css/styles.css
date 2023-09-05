@@ -261,6 +261,7 @@ body {
   
   
   .beforeFooter h2 {
+    white-space:pre-line;
     width: 324px;
     height: auto;
     font-size: 40px;
