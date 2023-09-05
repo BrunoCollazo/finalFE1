@@ -1,45 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Be Vietnam Pro', sans-serif;
-}
 
-/* HEADER */
-
-header {
-    padding: 20px 40px 0 40px;
-    display: flex;
-    justify-content: space-between;
-}
-
-nav {
-    display: none;
-}
-
-header button {
-    display: none;
-}
-
-.logo {
-    width: 108px;
-
-}
-
-.hamburger {
-    width: 60px;
-    height: 55px;
-}
-
-/* MAIN */
-
-.afterHeader img,
-.afterHeader div {
-    width: 400px;
-}
 
 h1 {
     width: 400px;
@@ -77,31 +39,56 @@ body {
 
 }
 
+.puntosDiferenciaPros .contenido p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    background: rgba(179, 178, 183, 0); 
+    color: rgba(179, 178, 183, 1); 
+    padding: 10px;
+    margin-bottom: 10px;
+}
 
 .puntosDiferenciaPros .contenido h3 {
-  width: 228px; 
-  height: 23px; 
-  font-size: 16px;
-  font-weight: 700; 
-  line-height: 23px;
-  letter-spacing: -0.015em;
-  text-align: left;
-  background: rgba(139, 72, 191, 0.3); 
-  color: rgba(50, 56, 81, 1); 
-  padding: 10px; 
-  border-radius: 50px 0px 0px 50px; 
-  gap: 8px; 
+    width: 228px; 
+    height: 23px; 
+    font-size: 16px;
+    font-weight: 700; 
+    line-height: 23px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    background: rgba(139, 72, 191, 0.3); 
+    color: rgba(50, 56, 81, 1); 
+    padding: 10px; 
+    border-radius: 50px 0px 0px 50px; 
+    gap: 8px; 
 }
 
 
-.puntosDiferenciaPros .contenido p {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 26px;
-  letter-spacing: -0.01em;
-  text-align: left;
-  background: rgba(179, 178, 183, 0); 
-  color: rgba(179, 178, 183, 1); 
-  padding: 10px;
-  margin-bottom: 10px;
+.puntosDiferenciaPros .diferencias {
+    display: flex;
 }
+
+
+.puntosDiferenciaPros .diferencias .numero {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+  .bestOfTheMonth h2 {
+    width: 334.41px;
+    height: 61px;
+    top: 2155px;
+    left: 74px;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    background: transparent; 
+    color: rgba(36, 46, 83, 1); 
+    padding: 10px; 
+  }
+  
