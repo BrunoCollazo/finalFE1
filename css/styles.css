@@ -1,83 +1,156 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
 
+/* HEADER */
 
+header {
+    padding: 20px 40px 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: none;
+}
+
+header button {
+    display: none;
+}
+
+.logo {
+    width: 108px;
+
+}
+
+.hamburger {
+    width: 60px;
+    height: 55px;
+}
+
+/* MAIN */
+.afterHeader {
+    height: 175vw;
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between
+}
+.afterHeader img, div {
+    width: 83.34%;
+}
+
+.afterHeader div {
+    height: 83.125vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
 
 h1 {
-    width: 400px;
     font-weight: 700;
     font-size: 50px;
     line-height: 57.3px;
+    letter-spacing: -0.035em;
     text-align: right;
     color: #232C50;
+}
+
+.afterHeader div h3{
+    font-weight: 500;
+    font-size: 16.56px;
+    line-height: 26px;
+    text-align: right;
+}
+
+.btn-contact {
+    width: 134px;
+    height: 44px;
+    border-radius: 50px;
+    color:white;
+    background-color: #8B48BF;
+    font-size: 13.18px;
+    align-self: self-end;
+    border-width: 0px;
+}
+
+.cualesSonDiferencias{
+    margin-top: 40px;
+    height: 63.75vw;
+    background-color: #3CDDF3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cualesSonDiferencias h2, .cualesSonDiferencias h3 {
+    color: white;
+    margin: 0px 20px;
+}
+
+.cualesSonDiferencias h2 {
+    padding-top: 6px;
+    font-size: 36px;
+    line-height: 41.3px;
+}
+
+.cualesSonDiferencias h3 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24.18px;
 }
 
 body {
     background: #FFFFFF;
 }
 
+.puntosDiferenciaPros{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.diferencias {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contenido {
+    width: 446px;
+}
+
 .numero {
-    font-family: 'Be Vietnam', sans-serif;
     width: 69px;
     height: 43px;
-    padding: 10px 25px;
-    border-radius: 30px;
-    gap: 10px;
     background: #8B48BF;
+    border-radius: 30px;
+    position: absolute;
     display: flex;
-    align-items: center;
     justify-content: center;
-    position: relative;
-    font-size: 16px;
+    align-items: center;
+    
     font-weight: 700;
-    line-height: 23px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-    width: 19px;
-    height: 23px;
-
+    color: white;
 }
 
-.puntosDiferenciaPros .contenido p {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: -0.01em;
-    text-align: left;
-    background: rgba(179, 178, 183, 0); 
-    color: rgba(179, 178, 183, 1); 
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-.puntosDiferenciaPros .contenido h3 {
-    width: 228px; 
-    height: 23px; 
-    font-size: 16px;
-    font-weight: 700; 
-    line-height: 23px;
+.contenido h3 {
     letter-spacing: -0.015em;
-    text-align: left;
-    background: rgba(139, 72, 191, 0.3); 
-    color: rgba(50, 56, 81, 1); 
-    padding: 10px; 
-    border-radius: 50px 0px 0px 50px; 
-    gap: 8px; 
+    color: #323851;
+    background: rgba(139, 72, 191, 0.3);
+    padding: 10px;
+    padding-left: 90px;
+    border-radius: 50px 0px 0px 50px;
 }
 
 
-.puntosDiferenciaPros .diferencias {
-    display: flex;
-}
-
-
-.puntosDiferenciaPros .diferencias .numero {
-    display: inline-block; 
-    margin-right: 10px; 
-}
-
-  .bestOfTheMonth h2 {
+.bestOfTheMonth h2 {
     width: 334.41px;
     height: 61px;
     top: 2155px;
@@ -87,8 +160,7 @@ body {
     line-height: 61px;
     letter-spacing: -0.01em;
     text-align: left;
-    background: transparent; 
-    color: rgba(36, 46, 83, 1); 
-    padding: 10px; 
-  }
-  
+    background: transparent;
+    color: rgba(36, 46, 83, 1);
+    padding: 10px;
+}
