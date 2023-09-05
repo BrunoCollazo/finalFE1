@@ -123,7 +123,7 @@ body {
 }
 
 .contenido {
-    width: 446px;
+    width: 446vw;
 }
 
 .numero {
@@ -135,10 +135,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
     font-weight: 700;
     color: white;
 }
+
+
+.puntosDiferenciaPros .contenido p { 
+    height: auto; 
+    padding: 10px; 
+    gap: 10px; 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    color: rgba(179, 178, 183, 1); 
+    margin-bottom: 25px;
+}
+
+
+
 
 .contenido h3 {
     letter-spacing: -0.015em;
@@ -147,20 +162,225 @@ body {
     padding: 10px;
     padding-left: 90px;
     border-radius: 50px 0px 0px 50px;
+    margin-bottom: 25px;
 }
 
 
 .bestOfTheMonth h2 {
-    width: 334.41px;
     height: 61px;
-    top: 2155px;
     left: 74px;
     font-size: 39px;
     font-weight: 700;
     line-height: 61px;
     letter-spacing: -0.01em;
     text-align: left;
-    background: transparent;
     color: rgba(36, 46, 83, 1);
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
 }
+
+.cardJugador {
+    display: none;
+}
+
+.cardJugador:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 10px auto; 
+}
+
+
+.cardJugador:nth-child(3) .nombreJugador {
+    height: 25px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin-top: 25px; 
+    margin-bottom: 15px; 
+    color:#3F4868;
+    
+}
+
+.cardJugador:nth-child(3) p {
+    background-color: rgba(250, 250, 250, 1); 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center; 
+    color: rgba(185, 185, 193, 1); 
+}
+
+
+
+
+.bestOfTheMonth .btn-contact {
+    width: 134px;
+    height: 44px;
+    margin-top: 50px; 
+    margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 50px;
+    background: rgba(139, 72, 191, 1);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+  
+  
+  
+  .beforeFooter {
+    width: 480;
+    height: 366px;
+    left: -2px;
+    padding: 40px 50px;
+    gap: 50px;
+    background: rgba(60, 221, 243, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+  
+  .beforeFooter h2 {
+    width: 324px;
+    height: auto;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.005em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+  }
+ 
+  .btn-goforit {
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 50px; 
+    gap: 10px;
+    background-color: rgba(35, 44, 80, 1);
+    box-shadow: 0px 4x 8px 0px rgba(0, 0, 0, 0.25);
+    color: rgba(255, 255, 255, 1);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.footer-container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 40px;
+    gap: 25px;
+    background-color: rgba(30, 30, 38, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+#emailForm {
+    width: 450px;
+    height: auto;
+    padding: 10px 0;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#mail {
+    flex: 1;
+    width: 308px;
+    height: 44.52px;
+    gap: 9px;
+    padding: 10px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 1);
+}
+
+#submitButton {
+    width: 63px;
+    height: 42px;
+    padding: 5px;
+    border-radius: 50px;
+    background: rgba(139, 72, 191, 1);
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+  
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.navbar li {
+    list-style-type: none; 
+    margin-bottom: 10px; 
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    margin-right: 5px; 
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #FFFFFF; }
+
+.redes {
+    display: flex;
+    width: 480px; 
+    height: 42.05px; 
+    padding: 10px 50px; 
+    justify-content: space-between; 
+}
+
+.redes img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+
+.copyright {
+    width: 213px;
+    height: 18px;
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8C8C94;
+}
+
+
+
