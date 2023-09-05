@@ -1,19 +1,57 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Be Vietnam Pro', sans-serif;
-  }
+}
 
+/* HEADER */
+
+header {
+    padding: 20px 40px 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: none;
+}
+
+header button {
+    display: none;
+}
+
+.logo {
+    width: 108px;
+
+}
+
+.hamburger {
+    width: 60px;
+    height: 55px;
+}
+
+/* MAIN */
+
+.afterHeader img,
+.afterHeader div {
+    width: 400px;
+}
+
+h1 {
+    width: 400px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57.3px;
+    text-align: right;
+    color: #232C50;
+}
 
 body {
-  width: 480px;
-  height: 3593px;
-  top: -2627px;
-  left: 654px;
-  background: #FFFFFF;
+    background: #FFFFFF;
 }
 
 .numero {
@@ -38,28 +76,32 @@ body {
     height: 23px;
 
 }
+
+
 .puntosDiferenciaPros .contenido h3 {
-  background: rgba(139, 72, 191, 0.3);
-  font-family: 'Be Vietnam', sans-serif;
+  width: 228px; 
+  height: 23px; 
   font-size: 16px;
-  font-weight: 500;
-  line-height: 43px;
-  letter-spacing: -0.01em;
+  font-weight: 700; 
+  line-height: 23px;
+  letter-spacing: -0.015em;
   text-align: left;
+  background: rgba(139, 72, 191, 0.3); 
+  color: rgba(50, 56, 81, 1); 
+  padding: 10px; 
+  border-radius: 50px 0px 0px 50px; 
+  gap: 8px; 
 }
 
 
 .puntosDiferenciaPros .contenido p {
-  font-family: 'Be Vietnam', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
   letter-spacing: -0.01em;
   text-align: left;
-  background: rgba(179, 178, 183, 0);
-  color: rgba(179, 178, 183, 1);
-  width: 428px; 
-  height: 150px; 
-  padding: 10px; 
-  margin-bottom: 10px; 
+  background: rgba(179, 178, 183, 0); 
+  color: rgba(179, 178, 183, 1); 
+  padding: 10px;
+  margin-bottom: 10px;
 }
