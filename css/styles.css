@@ -194,7 +194,7 @@ body {
     letter-spacing: 0em;
     text-align: center; 
     color: rgba(185, 185, 193, 1); 
-    width: 393px;
+    width: 402px;
 }
 .nombreJugador {
     height: 25px;
@@ -435,19 +435,26 @@ body {
 
 /*aca escribe lu*/ 
 
-.puntosDiferenciaPros {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #fafafa;
-}
-.puntosDiferenciaPros .diferencias {
-    width: 40%;
-    padding: 0% 2%;
-    margin: 0px 0px 20px;
-}
-.contenido h3{
-    background-color: #FAFAFA;
-}
+    .puntosDiferenciaPros {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #fafafa;
+    }
+    .puntosDiferenciaPros .diferencias {
+        width: 40%;
+        padding: 0% 2%;
+        margin: 0px 0px 20px;
+    }
+    .contenido h3{
+        background-color: #FAFAFA;
+    }
+    .cardJugador{
+        display: flex;
+        flex-direction: column;
+    }
+    .cardsJuntas{
+        display: flex;
+    }
 
 }
