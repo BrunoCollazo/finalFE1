@@ -524,25 +524,6 @@ body {
         box-shadow: 0px 4px 8px 0px #00000040;
     }
 
-    .puntosDiferenciaPros {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        background-color: #fafafa;
-        margin: 0px;
-        padding-top: 50px;
-    }
-
-    .puntosDiferenciaPros .diferencias {
-        width: 40%;
-        padding: 0% 2%;
-        margin: 0px 0px 20px;
-    }
-
-    .contenido h3 {
-        background-color: #FAFAFA;
-    }
-
     .cardJugador {
         display: flex;
         flex-direction: column;
