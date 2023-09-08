@@ -547,5 +547,11 @@ body {
         grid-column: copy;
         justify-self: right
     }
+    button {
+        transition: transform 1s ease; 
+    }
+    button:hover {
+        transform: scale(1.3);
+    }
 
 }
