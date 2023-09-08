@@ -479,7 +479,7 @@ body {
     .beforeFooter h2 {
         text-align: justify;
         width: 450px;
-        white-space: break-spaces;
+        white-space: normal;
     }
 
     .beforeFooter .btn-goforit {
@@ -504,7 +504,6 @@ body {
 
     /*! FOOTER */
     .footer-container {
-        background-color: rgba(30, 30, 38, 1);
         display: grid;
         grid-template-areas:
             "logo links form"
@@ -513,33 +512,28 @@ body {
     }
 
     .logofooter {
-        width: 108px;
         grid-column: logo;
         grid-row: logo;
     }
 
     .footernav {
         width: 393px;
-        height: 141px;
-        grid-column: links;
         grid-row: links;
     }
 
     #emailForm {
-        width: 272px;
-        grid-row: form;
+        width: 282px;
         justify-self: right
     }
 
     #emailForm input{
         width: 201px;
+        margin-right: 10px;
         
     }
 
     .redes {
-        height: auto;
         width: 154px;
-        grid-row: redes;
         padding: 0;
     }
 
@@ -549,9 +543,9 @@ body {
     }
 
     .copyright {
-        width: 224px;
-        grid-row: copy;
+        width: 235px;
         grid-column: copy;
         justify-self: right
     }
+
 }
